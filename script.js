@@ -24,7 +24,7 @@ function myGame (a,b) {
       return "You win, Paper wraps Rock";}
     else if (a==b){
       return "Draw";}
-    else    {return "Check your spelling!";}
+    else    {return "Check your spelling!!";}
 }
 
 console.log (myGame (computerChoice, playerChoice))
